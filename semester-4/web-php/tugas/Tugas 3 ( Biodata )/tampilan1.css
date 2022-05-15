@@ -1,0 +1,14 @@
+header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .utama {
+    display: flex;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .utama table {
+    margin-left: 25px;
+  }
