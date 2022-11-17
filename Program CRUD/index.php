@@ -114,7 +114,7 @@ nama_mahasiswa = '$_POST[nama]'");
     }
 
     // Program Edit data mahasiswa
-    if (isset($_POST['simpan']) || isset($_POST['simpan-edit'])) {
+    if (isset($_POST['simpan-edit'])) {
         mysqli_query($koneksi, "UPDATE mahasiswa SET nama_mahasiswa = '$_POST[nama]' WHERE nim_mahasiswa = '$_GET[edtdata]'");
 
         echo "Data Barang Berhasil di Edit";
