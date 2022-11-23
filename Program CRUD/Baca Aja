@@ -1,0 +1,4 @@
+Di Program CRUD ada 3 File :
+1. koneksi.php (Buat koneksi ke dalam database)
+2. index.php (Halaman Utama, yang terdapat program Simpan data, Hapus data, dan juga Tampil data)
+3. edit-data.php (Untuk melakukan edit tapi pisah halaman)
