@@ -89,6 +89,7 @@ if (isset($_GET['edtdata'])) {
                 <td><a href='?hpsdata=$tampil[nim_mahasiswa]'>Hapus</a></td>
                 <td><a href='?edtdata=$tampil[nim_mahasiswa]'>Edit</a></td>
             </tr>";
+            $no++;
         }
         ?>
     </table>
